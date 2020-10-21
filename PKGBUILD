@@ -12,7 +12,7 @@ arch=(i686 x86_64)
 url="http://lists.x.org/archives/xorg-devel/2012-August/033343.html"
 license=('custom')
 depends=('glibc' 'systemd' 'mtdev' 'libevdev')
-makedepends=('git' 'xorg-server-devel' 'resourceproto' 'scrnsaverproto')
+makedepends=('git' 'xorg-server-devel' 'xorgproto')
 provides=("$_pkgname" 'xf86-input-driver')
 conflicts=("$_pkgname")
 # XXX When you upgrade xorg-server, you should makepkg -srcfi this package.
